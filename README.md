@@ -4,7 +4,7 @@ An Excel dashboard and SQL Server analysis of turnaround time and SLA breaches
 across three laboratory sections, to find where delays occur and what can be
 done about them.
 
-![Dashboard](screenshots/dashboard.png)
+![Dashboard](screenshots/Dashboard-Summary.png)
 
 ## 📌 Project Overview
 In a testing laboratory, clients are promised results within an agreed time
