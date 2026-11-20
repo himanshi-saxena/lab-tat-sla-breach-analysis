@@ -70,6 +70,30 @@ every figure is traceable to a query.
 6. Built a risk score for open samples
 7. Wrote 8 KPI queries and checked them against the Excel pivots
 
+## Phase 3: Power BI Dashboard
+
+I rebuilt the analysis in Power BI with a star schema data model
+and DAX measures, across three report pages.
+
+### Page 1: Executive Summary
+![Executive Summary](powerbi/executive_summary.png)
+
+### Page 2: Bottleneck Analysis
+![Bottleneck Analysis](powerbi/bottleneck_analysis.png)
+
+### Page 3: Risk Watchlist
+![Risk Watchlist](powerbi/risk_watchlist.png)
+
+### Data model
+![Data model](powerbi/model_view.png)
+
+### Key results
+- 5,916 completed samples, with a 25.5% SLA breach rate
+- 62 samples still open: 3 overdue, 21 due within 2 days
+- [Add one finding from your Bottleneck page with a number]
+
+DAX measures are listed in [powerbi/DAX_measures.md](powerbi/DAX_measures.md).
+
 ## 🗄 SQL Analysis (Phase 2)
 Script: [`sql/LabTAT_full_sql_script.sql`](sql/LabTAT_full_sql_script.sql)
 
