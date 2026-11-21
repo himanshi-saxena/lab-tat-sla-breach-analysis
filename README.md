@@ -133,7 +133,7 @@ Script: [`sql/LabTAT_full_sql_script.sql`](LabTAT_full_sql_script.sql)
 | Q7 | Effect of retest and priority |
 | Q8 | Watchlist of open samples with the highest risk |
 
-![SQL checkpoints](screenshots/sql_checkpoints.png)
+![SQL checkpoints](screenshots/Checkpoints)
 
 ## 📊 Key Insights
 - Average TAT is **4.76 days**, and **25.5%** of samples breach the SLA.
