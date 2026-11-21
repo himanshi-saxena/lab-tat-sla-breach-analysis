@@ -76,16 +76,19 @@ I rebuilt the analysis in Power BI with a star schema data model
 and DAX measures, across three report pages.
 
 ### Page 1: Executive Summary
-![Executive Summary](powerbi/executive_summary.png)
+![Executive Summary](Power%20BI/Screenshot/Executive%20summary.png)
 
 ### Page 2: Bottleneck Analysis
-![Bottleneck Analysis](powerbi/bottleneck_analysis.png)
+![Bottleneck Analysis](Power%20BI/Screenshot/Bottle%20neck%20analysis.png)
 
 ### Page 3: Risk Watchlist
-![Risk Watchlist](powerbi/risk_watchlist.png)
+![Risk Watchlist](Power%20BI/Screenshot/Risk%20Watchlist.png)
 
 ### Data model
-![Data model](powerbi/model_view.png)
+![Data model](Power%20BI/Screenshot/Model%20view.png)
+
+### DAX measures
+![DAX measures](Power%20BI/Screenshot/Measure.png)
 
 ### Key results
 - 5,916 completed samples, with a 25.5% SLA breach rate
