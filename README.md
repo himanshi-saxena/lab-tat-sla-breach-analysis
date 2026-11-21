@@ -98,7 +98,7 @@ and DAX measures, across three report pages.
 DAX measures are listed in [powerbi/DAX_measures.md](powerbi/DAX_measures.md).
 
 ## 🗄 SQL Analysis (Phase 2)
-Script: [`sql/LabTAT_full_sql_script.sql`](sql/LabTAT_full_sql_script.sql)
+Script: [`sql/LabTAT_full_sql_script.sql`](LabTAT_full_sql_script.sql)
 
 **Checkpoints**
 
