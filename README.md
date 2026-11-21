@@ -12,10 +12,10 @@ called the Service Level Agreement (SLA). When a sample takes longer than the
 SLA, it is an SLA breach. Breaches affect client trust, repeat business and
 compliance records.
 
-This project analyses **5,916 completed samples** (plus 62 still open) to
-measure performance, locate bottlenecks and recommend improvements. The Excel
-dashboard shows the results, and the SQL phase rebuilds the same numbers so
-every figure is traceable to a query.
+## Business problem
+A testing lab promises results within a fixed number of days (SLA).
+In this dataset, 25.5% of 5,916 completed samples breached the SLA,
+and management had no clear view of where or why..
 
 ## 🎯 Business Questions
 1. What is the overall turnaround time and SLA breach rate?
@@ -93,7 +93,7 @@ and DAX measures, across three report pages.
 ### Key results
 - 5,916 completed samples, with a 25.5% SLA breach rate
 - 62 samples still open: 3 overdue, 21 due within 2 days
-- [Add one finding from your Bottleneck page with a number]
+- Chemical has the most breached samples (704 of 1,509), but Instrumental has the highest breach rate (30.2%)
 
 
 ## 🗄 SQL Analysis (Phase 2)
@@ -168,8 +168,7 @@ Script: [`sql/LabTAT_full_sql_script.sql`](LabTAT_full_sql_script.sql)
 - [x] Pivot table analysis
 - [x] Excel executive dashboard
 - [x] SQL analysis (queries, CTEs, window functions)
-- [ ] Power BI dashboard
-- [ ] Tableau dashboard
+- [x] Power BI dashboard
 - [ ] Python analysis (pandas, statistical testing)
 
 ## 📁 Repository Structure
