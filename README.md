@@ -95,7 +95,6 @@ and DAX measures, across three report pages.
 - 62 samples still open: 3 overdue, 21 due within 2 days
 - [Add one finding from your Bottleneck page with a number]
 
-DAX measures are listed in [powerbi/DAX_measures.md](powerbi/DAX_measures.md).
 
 ## 🗄 SQL Analysis (Phase 2)
 Script: [`sql/LabTAT_full_sql_script.sql`](LabTAT_full_sql_script.sql)
